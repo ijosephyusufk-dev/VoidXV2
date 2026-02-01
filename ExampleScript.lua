@@ -18,10 +18,10 @@ local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/ijose
 ═══════════════════════════════════════════════════════════════════════════════
 ]]
 
--- Debug modu aç (konsola tüm logları yazar)
+-- Enable debug mode (logs to console)
 Library:SetDebug(true)
 
--- Library bilgilerini göster
+-- Show Library info
 print("📚 Library Version:", Library:GetVersion())
 print("👤 Author:", Library.Author)
 print("🔗 GitHub:", Library.GitHub)
@@ -32,7 +32,7 @@ print("🔗 GitHub:", Library.GitHub)
 ═══════════════════════════════════════════════════════════════════════════════
 ]]
 
--- Event listener'lar - GUI oluşmadan önce kaydet
+-- Event listeners - Register before GUI creation
 Library:On("WindowCreated", function(window)
     print("🪟 [Event] Window created:", window.Name)
 end)

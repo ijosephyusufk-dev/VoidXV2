@@ -17,9 +17,9 @@ Library:SetDebug(true)
 -- KEY SYSTEM SETUP
 -- ═══════════════════════════════════════════════════════════════════════
 Library.KeySystem:AddKeys({
-    "VOIDX-FREE-2024",
-    "VOIDX-PREMIUM-VIP",
-    "VOIDX-TRIAL-TEST"
+    "TESTKEY-FREE",
+    "TESTKEY-PREMIUM-VIP",
+    "TESTKEY-TRIAL-TEST"
 })
 Library.KeySystem:SetRateLimit(5, 60) -- 5 attempts, 60s cooldown
 
@@ -60,7 +60,7 @@ local function ShowKeyUI()
     KeyTab:CreateParagraph("Welcome", "Please enter your key to access the hub.\nGet a key from our Discord server.")
     
     local keyInput = ""
-    KeyTab:CreateInput("Enter Key", "VOIDX-XXXX-XXXX", function(text)
+    KeyTab:CreateInput("Enter Key", "TESTKEY-XXXX-XXXX", function(text)
         keyInput = text
     end)
     

@@ -6,11 +6,11 @@
 local Library = require(script.Parent)
 
 local Window = Library:CreateWindow({
-    Name = "ThunderZ HUB",
+    Name = "VoidX HUB",
     LoadingTitle = "Initializing...",
     ConfigurationSaving = {
         Enabled = true,
-        FolderName = "ThunderZConfig",
+        FolderName = "VoidXConfig",
         FileName = "Config"
     }
 })

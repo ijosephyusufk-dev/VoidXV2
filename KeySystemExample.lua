@@ -4,7 +4,7 @@
 ]]
 
 local Config = {
-    Keys = {"VOIDX-FREE-2024", "VOIDX-PREMIUM", "VOIDX-VIP"},
+    Keys = {"TESTKEY-FREE", "TESTKEY-PREMIUM", "TESTKEY-VIP"},
     KeyLink = "https://your-link.com",
     SaveKey = true,
     FileName = "VoidxKey.txt"
